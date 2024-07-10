@@ -519,6 +519,43 @@ once.</p>
 </div>
 </div>
 </div>
+<div id="challenge-1-apply-regression" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="challenge-1-apply-regression" class="callout-inner">
+<h3 class="callout-title">Challenge 1: Apply Regression<a class="anchor" aria-label="anchor" href="#challenge-1-apply-regression"></a>
+</h3>
+<div class="callout-content">
+<p>This line will load housing price data, labeled by median housing
+price in a neighborhood:</p>
+<p>housing = datasets.fetch_california_housing()</p>
+<p>Use the techniques in this section to train a well performing
+regressor for housing price.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Answer
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>Test/train split:</p>
+<p>house_train_data, house_test_data, house_train_labels,
+house_test_labels = train_test_split(housing[‘data’],
+housing[‘target’])</p>
+<p>Train a LARS model:</p>
+<p>model = linear_model.Lars() model.fit(house_train_data,
+house_train_labels)</p>
+<p>calculate_metrics(model, house_test_data, house_test_labels)</p>
+</div>
+</div>
+</div>
+</div>
 <!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.

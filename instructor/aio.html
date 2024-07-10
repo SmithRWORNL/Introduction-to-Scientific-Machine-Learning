@@ -503,7 +503,7 @@ your model?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Output </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Your inputs numerical data. How much data you use will be something
 you will likely experiment with as you develop your process. You may bin
@@ -554,7 +554,7 @@ model?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>Your inputs will be a set of configuration options for your software.
 Some of these will be numerical (eg the number of seconds before a
@@ -599,7 +599,7 @@ inputs and outputs? When will you train your model?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>Your inputs will be the readings from the sensors, the GPS, and the
 time. All will be numerical data. Because the actual size and shape of
@@ -1097,6 +1097,45 @@ label(s) of interest in flightless birds.</p>
 <p>A Local Outlier Factor classifier calculates the probability density
 of each data point’s nearest neighbors. Points with unusually low
 probability may be considered outliers.</p>
+<div id="challenge-3-apply-classification" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="challenge-3-apply-classification" class="callout-inner">
+<h3 class="callout-title">Challenge 3: Apply Classification<a class="anchor" aria-label="anchor" href="#challenge-3-apply-classification"></a>
+</h3>
+<div class="callout-content">
+<p>This line will load forest coverage data, labeled by one of seven
+different types of tree which grow on one of the sample land plots:</p>
+<p>forest_coverage = datasets.fetch_covtype()</p>
+<p>Use the techniques in this section to train a well performing
+classifier for tree type.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
+  <h4 class="accordion-header" id="headingSolution3">
+  Answer
+  </h4>
+</button>
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div class="accordion-body">
+<p>Test/train split:</p>
+<p>forest_train_data, forest_test_data, forest_train_labels,
+forest_test_labels = train_test_split(forest_coverage[‘data’],
+forest_coverage[‘target’])</p>
+<p>Train a Decision Tree classifier, with a relatively high maximum
+depth given the number of parameters.</p>
+<p>model = DecisionTreeClassifier(max_depth=2 *
+len(forest_train_data[0])) model.fit(forest_train_data,
+forest_train_labels)</p>
+<p>calculate_scores(model, forest_test_data, forest_test_labels)</p>
+</div>
+</div>
+</div>
+</div>
 <!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
@@ -1287,6 +1326,43 @@ the individual dependent variables.</p>
 <div class="callout-content">
 <p>Classification is also not relegated to learning a single label at
 once.</p>
+</div>
+</div>
+</div>
+<div id="challenge-1-apply-regression" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="challenge-1-apply-regression" class="callout-inner">
+<h3 class="callout-title">Challenge 1: Apply Regression<a class="anchor" aria-label="anchor" href="#challenge-1-apply-regression"></a>
+</h3>
+<div class="callout-content">
+<p>This line will load housing price data, labeled by median housing
+price in a neighborhood:</p>
+<p>housing = datasets.fetch_california_housing()</p>
+<p>Use the techniques in this section to train a well performing
+regressor for housing price.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Answer
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>Test/train split:</p>
+<p>house_train_data, house_test_data, house_train_labels,
+house_test_labels = train_test_split(housing[‘data’],
+housing[‘target’])</p>
+<p>Train a LARS model:</p>
+<p>model = linear_model.Lars() model.fit(house_train_data,
+house_train_labels)</p>
+<p>calculate_metrics(model, house_test_data, house_test_labels)</p>
+</div>
 </div>
 </div>
 </div>
@@ -1598,6 +1674,43 @@ region.</p>
 <hr class="half-width">
 <p>In uniform crossover, each gene, or individual bits defining a gene’s
 value, are selected at random from each parent.</p>
+<div id="challenge-3-expand-the-model" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="challenge-3-expand-the-model" class="callout-inner">
+<h3 class="callout-title">Challenge 3: Expand the Model<a class="anchor" aria-label="anchor" href="#challenge-3-expand-the-model"></a>
+</h3>
+<div class="callout-content">
+<p>Fit the experimental data with a curve using two Lorentzians. That
+is, the full model is the sum of one Lorentzian function, a second
+Lorentzian function, and the linear background.</p>
+<p>Additionally, use constraints to ensure that the second Lorentzian is
+wider than the first.</p>
+<p>Hint: there is only one peak, so both Lorentzians should be fitted to
+the same center.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Answer
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>The key is to add a meta parameter defining the relationship between
+the Lorentzians, since lmfit does not support inequality
+constraints.</p>
+<p>params[“width_delta”] = Parameter(name=“width_delta”, value = 0.5)
+params[“width_delta”].min = 0.001 params[“width2”].expr = “width1 +
+width_delta”</p>
+</div>
+</div>
+</div>
+</div>
 <!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.

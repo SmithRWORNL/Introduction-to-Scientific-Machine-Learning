@@ -595,6 +595,43 @@ region.</p>
 <a class="anchor" aria-label="anchor" href="#uniform-crossover"></a></h2>
 <hr class="half-width"><p>In uniform crossover, each gene, or individual bits defining a gene’s
 value, are selected at random from each parent.</p>
+<div id="challenge-3-expand-the-model" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="challenge-3-expand-the-model" class="callout-inner">
+<h3 class="callout-title">Challenge 3: Expand the Model<a class="anchor" aria-label="anchor" href="#challenge-3-expand-the-model"></a>
+</h3>
+<div class="callout-content">
+<p>Fit the experimental data with a curve using two Lorentzians. That
+is, the full model is the sum of one Lorentzian function, a second
+Lorentzian function, and the linear background.</p>
+<p>Additionally, use constraints to ensure that the second Lorentzian is
+wider than the first.</p>
+<p>Hint: there is only one peak, so both Lorentzians should be fitted to
+the same center.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Answer
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>The key is to add a meta parameter defining the relationship between
+the Lorentzians, since lmfit does not support inequality
+constraints.</p>
+<p>params[“width_delta”] = Parameter(name=“width_delta”, value = 0.5)
+params[“width_delta”].min = 0.001 params[“width2”].expr = “width1 +
+width_delta”</p>
+</div>
+</div>
+</div>
+</div>
 <!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
