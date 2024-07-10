@@ -89,3 +89,32 @@ Algorithms can be fitted to multiple values simultaneously, minimizing the combi
 Classification is also not relegated to learning a single label at once.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: challenge 
+
+## Challenge 1: Apply Regression
+
+This line will load housing price data, labeled by median housing price in a neighborhood:
+
+housing = datasets.fetch_california_housing()
+
+Use the techniques in this section to train a well performing regressor for housing price.
+
+:::::::::::::::::::::::: solution 
+
+## Answer
+
+Test/train split:
+
+house_train_data, house_test_data, house_train_labels, house_test_labels = train_test_split(housing['data'], housing['target'])
+
+Train a LARS model:
+
+model = linear_model.Lars()
+model.fit(house_train_data, house_train_labels)
+
+calculate_metrics(model, house_test_data, house_test_labels)
+
+:::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::
