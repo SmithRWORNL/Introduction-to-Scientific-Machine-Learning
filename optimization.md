@@ -28,7 +28,7 @@ Fitting accepts an objective function with some number of parameters, as well as
 
 Follow along by importing this notebook into Colab:
 
-http://
+https://github.com/SmithRWORNL/Introduction-to-Scientific-Machine-Learning/blob/main/notebooks/optimization.ipynb
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
