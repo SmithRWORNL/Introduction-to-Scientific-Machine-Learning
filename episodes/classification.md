@@ -61,11 +61,11 @@ Consider the sample dataset of iris flower characteristics and species provided 
 
 A confusion matrix bins each test data point according to both its true and predicted labels. A True Positive was correctly identified as belonging to the class, while a False Positive was incorrectly identified as belonging to the class. True Negatives and False Negatives are equivalent for data points identified as not belonging to the class. Many metrics can be calculated from these, such as accuracy:
 
-$accuracy = \dfrac{TN + TP}{FN + FP + TN + TP}$
+accuracy = TN + TP / FN + FP + TN + TP
 
 One particularly common metric is the F1 score:
 
-$F1 = \dfrac{2*TP}{(2*TP)+FN+FP}$
+F1 = 2*TP / (2*TP)+FN+FP
 
 ## Decision Trees
 
