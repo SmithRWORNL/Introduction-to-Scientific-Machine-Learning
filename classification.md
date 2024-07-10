@@ -158,3 +158,31 @@ If there is a potential explanation, all is not lost. If removing flamingos and 
 
 A Local Outlier Factor classifier calculates the probability density of each data point's nearest neighbors. Points with unusually low probability may be considered outliers.
 
+::::::::::::::::::::::::::::::::::::: challenge 
+
+## Challenge 3: Apply Classification
+
+This line will load forest coverage data, labeled by one of seven different types of tree which grow on one of the sample land plots:
+
+forest_coverage = datasets.fetch_covtype()
+
+Use the techniques in this section to train a well performing classifier for tree type.
+
+:::::::::::::::::::::::: solution 
+
+## Answer
+
+Test/train split:
+
+forest_train_data, forest_test_data, forest_train_labels, forest_test_labels = train_test_split(forest_coverage['data'], forest_coverage['target'])
+
+Train a Decision Tree classifier, with a relatively high maximum depth given the number of parameters.
+
+model = DecisionTreeClassifier(max_depth=2 * len(forest_train_data[0]))
+model.fit(forest_train_data, forest_train_labels)
+
+calculate_scores(model, forest_test_data, forest_test_labels)
+
+:::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::

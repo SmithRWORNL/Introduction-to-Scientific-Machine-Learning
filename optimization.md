@@ -127,3 +127,26 @@ One point crossover can extended to an arbitrary number of points. Each point ch
 ## Uniform Crossover
 In uniform crossover, each gene, or individual bits defining a gene's value, are selected at random from each parent.
 
+::::::::::::::::::::::::::::::::::::: challenge 
+
+## Challenge 3: Expand the Model
+
+Fit the experimental data with a curve using two Lorentzians. That is, the full model is the sum of one Lorentzian function, a second Lorentzian function, and the linear background.
+
+Additionally, use constraints to ensure that the second Lorentzian is wider than the first.
+
+Hint: there is only one peak, so both Lorentzians should be fitted to the same center.
+
+:::::::::::::::::::::::: solution 
+
+## Answer
+
+The key is to add a meta parameter defining the relationship between the Lorentzians, since lmfit does not support inequality constraints.
+
+params["width_delta"] = Parameter(name="width_delta", value = 0.5)
+params["width_delta"].min = 0.001
+params["width2"].expr = "width1 + width_delta"
+
+:::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::
