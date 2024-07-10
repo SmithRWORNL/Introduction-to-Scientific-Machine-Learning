@@ -26,7 +26,7 @@ Regression is a kind of supervised learning in which data points associated with
 
 Follow along by importing this notebook into Colab:
 
-http://
+https://github.com/SmithRWORNL/Introduction-to-Scientific-Machine-Learning/blob/main/notebooks/regression.ipynb
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
