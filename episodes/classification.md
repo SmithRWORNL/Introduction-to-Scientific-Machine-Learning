@@ -53,6 +53,8 @@ Of the three closest points, 0/3 were of class 1, 2/3 were of class 2, and 1/3 w
 
 :::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::
+
 ## Performance Measurement
 
 Consider the sample dataset of iris flower characteristics and species provided by scikit-learn. The features of each data point are length of the sepal, width of the sepal, length of the petals, and width of the petals, while there are three species (setosa, versicolor, and virginica). In order to determine how well a classifier is performing, the available data is partitioned. One part will be used to train the classifier, then the rest will be classified by the trained model. The results of the model can then be compared to the known classes of the test data, showing how well the given algorithm can correctly identify unknown (to it) data points.
@@ -154,52 +156,3 @@ If there is a potential explanation, all is not lost. If removing flamingos and 
 
 A Local Outlier Factor classifier calculates the probability density of each data point's nearest neighbors. Points with unusually low probability may be considered outliers.
 
-## Challenge 2: how do you nest solutions within challenge blocks?
-
-:::::::::::::::::::::::: solution 
-
-You can add a line with at least three colons and a `solution` tag.
-
-:::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-## Figures
-
-You can use standard markdown for static figures with the following syntax:
-
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
-
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
-
-::::::::::::::::::::::::::::::::::::: callout
-
-Callout sections can highlight information.
-
-They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present "asides": 
-content that is not central to the narrative of the lesson,
-e.g. by providing the answer to a commonly-asked question.
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-## Math
-
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
-
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
-
-Cool, right?
-
-::::::::::::::::::::::::::::::::::::: keypoints 
-
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-[r-markdown]: https://rmarkdown.rstudio.com/
