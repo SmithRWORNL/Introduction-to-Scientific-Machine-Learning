@@ -14,7 +14,7 @@ carpentry: 'incubator'
 title: 'Introduction to Scientific Machine Learning'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ 2024-05-22
+created: ~ #2024-05-22
 
 # Comma-separated list of keywords for the lesson
 keywords: 'software, data, lesson, The Carpentries, machine learning'
