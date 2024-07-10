@@ -1,75 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/01-introduction.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/01-introduction.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/404.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/404.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/CODE_OF_CONDUCT.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/LICENSE.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/aio.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/aio.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/images.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/break.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/index.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/classification.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/01-introduction.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/colab.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/404.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/images.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/CODE_OF_CONDUCT.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/index.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/LICENSE.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/01-introduction.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/aio.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/404.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/images.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/index.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/instructor-notes.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/aio.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/introduction.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/break.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/key-points.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/classification.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/profiles.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/colab.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/reference.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/images.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor-notes.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/index.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/introduction.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/instructor-notes.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/key-points.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/introduction.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/profiles.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/key-points.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/reference.html</loc>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/latent.html</loc>
+  </url>
+  <url>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/optimization.html</loc>
+  </url>
+  <url>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/overview.html</loc>
+  </url>
+  <url>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/regression.html</loc>
+  </url>
+  <url>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/reinforcement.html</loc>
+  </url>
+  <url>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/latent.html</loc>
+  </url>
+  <url>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/optimization.html</loc>
+  </url>
+  <url>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/overview.html</loc>
+  </url>
+  <url>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/regression.html</loc>
+  </url>
+  <url>
+    <loc>https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/reinforcement.html</loc>
   </url>
 </urlset>

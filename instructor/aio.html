@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<title>Lesson Title: All in One View</title>
+<title>Introduction to Scientific Machine Learning: All in One View</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="../assets/themetoggle.js"></script><link rel="stylesheet" type="text/css" href="../assets/styles.css">
 <script src="../assets/scripts.js" type="text/javascript"></script><!-- mathjax --><script type="text/x-mathjax-config">
@@ -94,7 +94,7 @@
       <img class="small-logo" alt="Carpentries Incubator" src="../assets/images/incubator-logo-sm.svg">
 </div>
     <div class="lesson-title-md">
-      Lesson Title
+      Introduction to Scientific Machine Learning
     </div>
     <div class="search-icon-sm">
       <!-- TODO: do not show until we have search
@@ -105,7 +105,7 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 <li class="nav-item">
           <span class="lesson-title">
-            Lesson Title
+            Introduction to Scientific Machine Learning
           </span>
         </li>
         <li class="nav-item">
@@ -142,7 +142,7 @@
   </div>
 <!--/div.container-fluid -->
 </nav><div class="col-md-12 mobile-title">
-  Lesson Title
+  Introduction to Scientific Machine Learning
 </div>
 
 <aside class="col-md-12 lesson-progress"><div style="width: %" class="percentage">
@@ -244,7 +244,91 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="introduction.html">1. Using Markdown</a>
+        <a href="overview.html">1. Overview of Machine Learning</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush3">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading3">
+        <a href="colab.html">2. Using Google Colab</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush4">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading4">
+        <a href="classification.html">3. Classification</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush5">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading5">
+        <a href="regression.html">4. Regression</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush6">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading6">
+        <a href="break.html">5. Break</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush7">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading7">
+        <a href="optimization.html">6. Optimization</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush8">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading8">
+        <a href="reinforcement.html">7. Reinforcement Learning</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush9">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading9">
+        <a href="latent.html">8. Latent Variable Generation</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -308,12 +392,12 @@
     <main id="main-content" class="main-content"><div class="container lesson-content">
         
         
-<section id="aio-introduction"><p>Content from <a href="introduction.html">Using Markdown</a></p>
+<section id="aio-overview"><p>Content from <a href="overview.html">Overview of Machine Learning</a></p>
 <hr>
-<p>Last updated on 2023-07-24 |
+<p>Last updated on 2024-07-10 |
 
-        <a href="https://github.com/carpentries/workbench-template-md/edit/main/episodes/introduction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 12 minutes</p>
+        <a href="https://github.com/SmithRWORNL/Introduction-to-Scientific-Machine-Learning/edit/main/episodes/overview.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 15 minutes</p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -325,8 +409,7 @@
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>How do you write a lesson using Markdown and
-<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
+<li>What is machine learning?</li>
 </ul>
 </div>
 </div>
@@ -336,9 +419,10 @@
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Explain how to use markdown with The Carpentries Workbench</li>
-<li>Demonstrate how to include pieces of code, figures, and nested
-challenge blocks</li>
+<li>Explain the general concept behind machine learning</li>
+<li>Show how to pose scientific questions in a format amenable to
+machine learning</li>
+<li>Learn the categories of machine learning algorithms</li>
 </ul>
 </div>
 </div>
@@ -349,54 +433,68 @@ challenge blocks</li>
 <a class="anchor" aria-label="anchor" href="#introduction"></a>
 </h2>
 <hr class="half-width">
-<p>This is a lesson created via The Carpentries Workbench. It is written
-in <a href="https://pandoc.org/MANUAL.txt" class="external-link">Pandoc-flavored Markdown</a>
-for static files and <a href="https://rmarkdown.rstudio.com/" class="external-link">R
-Markdown</a> for dynamic files that can render code into output. Please
-refer to the <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introduction to The
-Carpentries Workbench</a> for full documentation.</p>
-<p>What you need to know is that there are three sections required for a
-valid Carpentries lesson:</p>
+<p>Machine learning algorithms tackle problems in two, possibly cyclical
+steps.</p>
 <ol style="list-style-type: decimal">
 <li>
-<code>questions</code> are displayed at the beginning of the episode
-to prime the learner for the content.</li>
+<code>Training</code> involves the input of new information into the
+algorithm. This data is used to create or update a <code>model</code>
+which stores the state of the algorithm’s knowledge.</li>
 <li>
-<code>objectives</code> are the learning objectives for an episode
-displayed with the questions.</li>
-<li>
-<code>keypoints</code> are displayed at the end of the episode to
-reinforce the objectives.</li>
+<code>Output</code> is the process by which an algorithm utilizes
+the information in the model to make some type of decision, such as
+providing a label to a new data point or enacting some change upon the
+environment.</li>
+</ol></section><section><h2 class="section-heading" id="defining-expected-outputs">Defining Expected Outputs<a class="anchor" aria-label="anchor" href="#defining-expected-outputs"></a>
+<a class="anchor" aria-label="anchor" href="#defining-expected-outputs"></a>
+</h2>
+<hr class="half-width">
+<p>In order to choose a fitting machine learning algorithm for your
+application, it is neccesary to have a firm idea of what precisely is
+sought as an answer the model can provide in a given situation.
+Possibilities include:</p>
+<ol style="list-style-type: decimal">
+<li>A label for an unknown data point.</li>
+<li>A numerical rating for some quality of an unknown data point.</li>
+<li>An input which will optimize (or at least provide a high value for)
+some well defined metric.</li>
+<li>An action to take given a current environment.</li>
+<li>Plausible values for missing sections of a piece of data.</li>
 </ol>
-<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
-  <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
-</button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
-<div class="accordion-body">
-<p>Inline instructor notes can help inform instructors of timing
-challenges associated with the lessons. They appear in the “Instructor
-View”</p>
-</div>
-</div>
-</div>
-</div>
-<div id="challenge-1-can-you-do-it" class="callout challenge">
+<p>Just because a problem does not fit perfectly into one of these
+categories at first glance, that does not mean that machine learning
+techniques are a lost cause. For example, determining the likelihood of
+a hypothesis can be considered an example of case 1. The set of data
+points are a given kind of hypotheses and relevant evidence and the
+potential labels are “true” and “false.”</p>
+</section><section><h2 class="section-heading" id="defining-inputs">Defining Inputs<a class="anchor" aria-label="anchor" href="#defining-inputs"></a>
+<a class="anchor" aria-label="anchor" href="#defining-inputs"></a>
+</h2>
+<hr class="half-width">
+<p>Once you’ve determined what precise output you can expect from your
+machine learning algorithm, you can begin defining what data is
+available to feed into it as input. Consider the following formats:</p>
+<ol style="list-style-type: decimal">
+<li>Numerical quantities.</li>
+<li>Values out of a set.</li>
+<li>A graph of relationships between nodes.</li>
+<li>Image data.</li>
+</ol>
+<p>Of the four, only numerical and qualitative features are easy to
+combine in one model.</p>
+<div id="challenge-1-defining-inputs-and-outputs" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
-<div id="challenge-1-can-you-do-it" class="callout-inner">
-<h3 class="callout-title">Challenge 1: Can you do it?<a class="anchor" aria-label="anchor" href="#challenge-1-can-you-do-it"></a>
+<div id="challenge-1-defining-inputs-and-outputs" class="callout-inner">
+<h3 class="callout-title">Challenge 1: Defining inputs and outputs<a class="anchor" aria-label="anchor" href="#challenge-1-defining-inputs-and-outputs"></a>
 </h3>
 <div class="callout-content">
-<p>What is the output of this command?</p>
-<div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">paste</span><span class="op">(</span><span class="st">"This"</span>, <span class="st">"new"</span>, <span class="st">"lesson"</span>, <span class="st">"looks"</span>, <span class="st">"good"</span><span class="op">)</span></span></code></pre>
-</div>
+<p>You have a database of XY data read off a given instrument for a
+variety of different liquids. You want to leverage this data to
+automatically identify unknown liquids which have been analyzed by
+instrument. What will your inputs and outputs be? When will you train
+your model?</p>
 </div>
 </div>
 </div>
@@ -407,24 +505,47 @@ View”</p>
 </button>
 <div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
-<div class="codewrapper">
-<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="output" tabindex="0"><code>[1] "This new lesson looks good"</code></pre>
+<p>Your inputs numerical data. How much data you use will be something
+you will likely experiment with as you develop your process. You may bin
+the data into exactly 100 numbers based on the average of 100 equally
+sized regions of the x axis, for example.</p>
+<p>Your outputs will be a label identifying the unknown liquid as
+belonging to a class. Depending on your scenario, labels may be an
+explicit chemical formula, or you may have multiple models that detect
+individual classes. For an example of the latter, you may decide to
+train one model to recognize the labels “contains ethanol” versus “does
+not contain ethanol” or perhaps the three labels “contains ethanol”
+versus “contains nitrogen” versus “contains sodium”.</p>
+<p>You will only train your final model once. You will probably wind up
+training many times over the development of your software, as you
+ascertain what produces the best results for your particular problem,
+but by the end you will have a model which you trained only once, using
+all of your available data. That model will then be used repeatedly to
+assign labels to all future unknown samples as you conduct multiple
+experiments with your instrument. Any new training would be done
+irregularly, such as when you expand your database of data available for
+training.</p>
 </div>
 </div>
 </div>
 </div>
-</div>
-<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout challenge">
+<div id="challenge-2-defining-inputs-and-outputs" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
-<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout-inner">
-<h3 class="callout-title">Challenge 2: how do you nest solutions within challenge blocks?<a class="anchor" aria-label="anchor" href="#challenge-2-how-do-you-nest-solutions-within-challenge-blocks"></a>
+<div id="challenge-2-defining-inputs-and-outputs" class="callout-inner">
+<h3 class="callout-title">Challenge 2: Defining inputs and outputs<a class="anchor" aria-label="anchor" href="#challenge-2-defining-inputs-and-outputs"></a>
 </h3>
 <div class="callout-content">
-
+<p>You are tasked with configuring many servers, each with the same
+software installed and with load balancing being used so that each one
+has roughly the same amount of requests being sent in. You want to
+provide high quality service, meaning that requests are replied to
+promptly and that service is not interrupted. Reconfiguration is
+expensive, requiring a server to be rebooted, and thus you are only
+allowed to do it once a day at midnight when the servers are not being
+used. What are your inputs and outputs? When will you train your
+model?</p>
 </div>
 </div>
 </div>
@@ -435,45 +556,101 @@ View”</p>
 </button>
 <div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
-<p>You can add a line with at least three colons and a
-<code>solution</code> tag.</p>
+<p>Your inputs will be a set of configuration options for your software.
+Some of these will be numerical (eg the number of seconds before a
+request times out) while others will be qualitative (eg whether a
+certain kind of optional buffering is to be used.)</p>
+<p>Your output will be a decision as to what input will maximize
+performance. This will require a mathematical definition of what you
+consider “performance” to entail. This may be a formula of the average
+time each user waits for their request to finish, with a large penalty
+added to this average for each minute the server spends unavailable.
+(That is, you would prefer a server that takes a long time to process
+requests over a server that keeps crashing.)</p>
+<p>Training will occur every night. Since you have the ability to
+redeploy and try new inputs only at midnight, it makes sense to perform
+training every night, using the previous day’s performance data to learn
+more about what makes a well configured server.</p>
 </div>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="figures">Figures<a class="anchor" aria-label="anchor" href="#figures"></a>
-<a class="anchor" aria-label="anchor" href="#figures"></a>
-</h2>
-<hr class="half-width">
-<p>You can use standard markdown for static figures with the following
-syntax:</p>
-<p><code>![optional caption that appears below the figure](figure url){alt='alt text for accessibility purposes'}</code></p>
-<figure><img src="https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg" alt="Blue Carpentries hex person logo with no text." class="figure mx-auto d-block"><div class="figcaption">You belong in The Carpentries!</div>
-</figure><div id="callout1" class="callout">
+<div id="challenge-3-defining-inputs-and-outputs" class="callout challenge">
 <div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
+<i class="callout-icon" data-feather="zap"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<div id="challenge-3-defining-inputs-and-outputs" class="callout-inner">
+<h3 class="callout-title">Challenge 3: Defining inputs and outputs<a class="anchor" aria-label="anchor" href="#challenge-3-defining-inputs-and-outputs"></a>
 </h3>
 <div class="callout-content">
-<p>Callout sections can highlight information.</p>
-<p>They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present “asides”: content that is
-not central to the narrative of the lesson, e.g. by providing the answer
-to a commonly-asked question.</p>
+<p>You are writing software for a drone equipped with atmospheric
+sensors and a GPS. It is intended to fly around a forested area for a
+day, searching for concentrations of environmental pollution. You want
+the drone to stay in the forest, to search as much of the forest as
+possible, to spend extra time in areas of pollution to obtain more
+detailed readings on these areas of interest, and to return to you
+before the day ends (when it will run out of energy.) What are your
+inputs and outputs? When will you train your model?</p>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="math">Math<a class="anchor" aria-label="anchor" href="#math"></a>
-<a class="anchor" aria-label="anchor" href="#math"></a>
+<div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
+  <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
+</button>
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div class="accordion-body">
+<p>Your inputs will be the readings from the sensors, the GPS, and the
+time. All will be numerical data. Because the actual size and shape of
+the true deployment location and test location(s) will likely differ, it
+will be important to ensure the GPS data is scaled to a position
+relative to the area’s boundary.</p>
+<p>Your output will be a decision for whether the drone should move and,
+if so, in what direction and at what speed.</p>
+<p>Training will likely occur over several test flights over one or more
+areas. It may be neccesary to use fake sensors to emulate the detection
+of pollution if real pollution can’t be found for a test. The entire
+training flight may even take place in simulation, model learning on
+solely emulated data before ever being given control of a physical
+machine.</p>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="categories-of-machine-learning">Categories of Machine Learning<a class="anchor" aria-label="anchor" href="#categories-of-machine-learning"></a>
+<a class="anchor" aria-label="anchor" href="#categories-of-machine-learning"></a>
 </h2>
 <hr class="half-width">
-<p>One of our episodes contains <span class="math inline">\(\LaTeX\)</span> equations when describing how to
-create dynamic reports with {knitr}, so we now use mathjax to describe
-this:</p>
-<p><code>$\alpha = \dfrac{1}{(1 - \beta)^2}$</code> becomes: <span class="math inline">\(\alpha = \dfrac{1}{(1 - \beta)^2}\)</span></p>
-<p>Cool, right?</p>
+<p>Machine learning algorithms are broadly broken down into three
+categories. These determine the broad class of question a given
+algorithm is intended to address. These categories are:</p>
+<ol style="list-style-type: decimal">
+<li>
+<code>Supervised Learning</code> is used for labeling problems or
+calculating numerical values. A set of training data is prepared, with
+each item being assigned a label for what class it belongs to or a
+number by a human. A model is trained on this data, then used to predict
+the class or value of new points. This is referred to as
+<code>classification</code> when the labels are qualitative and
+<code>regression</code> for numerical values.</li>
+<li>
+<code>Unsupervised Learning</code> contrasts with supervised
+learning in that training data points are not given any labels or
+values. The model is left to define one or more groups of data based
+solely on how similar data points are to each other during training. The
+model will then predict new data points as belonging to one group of
+data. It is up to the user to determine what the semantic meaning of a
+group is, if such information is desired.</li>
+<li>
+<code>Reinforcement Learning</code> exposes the model to an
+environment made up of variables. The algorithm then makes some
+choice(s) and calculates the utility of its new state. This process
+repeats in a loop, allowing the model to learn which actions produce
+positive outcomes in which scenarios. Optionally, at some point updates
+to the model may be halted, locking in its current knowledge and
+preventing new situations from altering what it has learned.</li>
+</ol>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -483,14 +660,14 @@ this:</p>
 </h3>
 <div class="callout-content">
 <ul>
-<li>Use <code>.md</code> files for episodes when you want static
-content</li>
-<li>Use <code>.Rmd</code> files for episodes when you need to generate
-output</li>
-<li>Run <code>sandpaper::check_lesson()</code> to identify any issues
-with your lesson</li>
-<li>Run <code>sandpaper::build_lesson()</code> to preview your lesson
-locally</li>
+<li>Precisely defining what data you can provide a model and what you
+expect to get out of it are key to algorithm selection.</li>
+<li>Supervised Learning accepts data points and labels/values as
+training data and returns a label/value.</li>
+<li>Unsupervised Learning accepts data points as training data and
+returns a group of data points.</li>
+<li>Reinforcement Learning accepts data from an environment and a
+utility function and returns an action to perform.</li>
 </ul>
 </div>
 </div>
@@ -499,6 +676,1076 @@ locally</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
+</section></section><section id="aio-colab"><p>Content from <a href="colab.html">Using Google Colab</a></p>
+<hr>
+<p>Last updated on 2024-07-10 |
+
+        <a href="https://github.com/SmithRWORNL/Introduction-to-Scientific-Machine-Learning/edit/main/episodes/colab.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 10 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How do you use Google Colab to run code?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Demonstrate using Google Colab</li>
+<li>Show how to import a notebook from Github</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
+<a class="anchor" aria-label="anchor" href="#introduction"></a>
+</h2>
+<hr class="half-width">
+<p>For coding demonstrations, we will be using Google Colab notebooks. A
+notebook is a GUI environment in which Python code can be run. You can
+access Google Colab <a href="https://colab.research.google.com/" class="external-link">here</a></p>
+</section><section><h2 class="section-heading" id="using-colab">Using Colab<a class="anchor" aria-label="anchor" href="#using-colab"></a>
+<a class="anchor" aria-label="anchor" href="#using-colab"></a>
+</h2>
+<hr class="half-width">
+<p>Colab is much like Jupyter. Each cell in the notebook is contains a
+block of Python code. Clicking the cell to select it and then either
+pressing the triangular start button to the cell’s left or typing ctrl +
+Enter will cause the code to run. Output will appear directly beneath
+the cell.</p>
+</section><section><h2 class="section-heading" id="installing-packages">Installing Packages<a class="anchor" aria-label="anchor" href="#installing-packages"></a>
+<a class="anchor" aria-label="anchor" href="#installing-packages"></a>
+</h2>
+<hr class="half-width">
+<p>In addition to standard Python, Colab supports some custom
+instructions for interacting with the workspace in which the notebook is
+run. Of particular interest is the ability to install new packages:</p>
+<p><code>!pip install foo</code></p>
+<p>This line will install the package <code>foo</code> just as running
+pip from the command line would. When working with a notebook, you
+should generally run the cells in order the first time so that packages
+are installed and variables instantiated as the later cells expect.</p>
+</section><section><h2 class="section-heading" id="opening-a-notebook">Opening a Notebook<a class="anchor" aria-label="anchor" href="#opening-a-notebook"></a>
+<a class="anchor" aria-label="anchor" href="#opening-a-notebook"></a>
+</h2>
+<hr class="half-width">
+<p>When you first enter Colab, and whenever you press ctrl + o, you will
+see the dialogue to open a notebook. You’ll see a list of notebooks you
+have already used, but to open a notebook hosted on Github, click the
+Github link on the left hand side. Then copy and paste the link to the
+notebook in the provided box.</p>
+</section><section><h2 class="section-heading" id="saving-a-notebook-locally">Saving a Notebook Locally<a class="anchor" aria-label="anchor" href="#saving-a-notebook-locally"></a>
+<a class="anchor" aria-label="anchor" href="#saving-a-notebook-locally"></a>
+</h2>
+<hr class="half-width">
+<p>If you want to run a notebook on your own computer instead of
+Google’s servers, you can click File -&gt; Download -&gt; Download
+.ipynb. This is the same format used by Jupyter, and can be opened in
+your own Jupyter instance.</p>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+</h3>
+<div class="callout-content">
+<ul>
+<li>Press the start button at the left of a cell to run the cell’s
+contents.</li>
+<li>Install packages with <code>!pip install (package name)</code>
+</li>
+<li>Import a notebook by pressing ctrl + o, selecting Github, and
+pasting the notebook’s address.</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-classification"><p>Content from <a href="classification.html">Classification</a></p>
+<hr>
+<p>Last updated on 2024-07-10 |
+
+        <a href="https://github.com/SmithRWORNL/Introduction-to-Scientific-Machine-Learning/edit/main/episodes/classification.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 30 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>What sort of algorithms perform classification?</li>
+<li>How can classification be performed in Python?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Define various classification algorithms</li>
+<li>Demonstrate how to train and use classification models with the
+Scikit Learn library.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
+<a class="anchor" aria-label="anchor" href="#introduction"></a>
+</h2>
+<hr class="half-width">
+<p>Classification is a kind of supervised learning in which labeled data
+points are used to train a model, then the model makes a prediction
+about the label of an unidentified new piece of data.</p>
+<div id="callout1" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout1"></a>
+</h3>
+<div class="callout-content">
+<p>Follow along by importing this notebook into Colab:</p>
+<p><a href="http://" class="external-link uri">http://</a></p>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="nearest-neighbors">Nearest Neighbors<a class="anchor" aria-label="anchor" href="#nearest-neighbors"></a>
+<a class="anchor" aria-label="anchor" href="#nearest-neighbors"></a>
+</h2>
+<hr class="half-width">
+<p>The nearest neighbors algorithm calculates the distance between the
+unknown data point and each training data point, feature by feature and
+assembles a list of the top K closest training points. The probability
+that the unknown is of class X is equal to the percentage of the closest
+K neighbors which belong to class X.</p>
+<div id="challenge-1-nearest-neighbors-by-hand" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="challenge-1-nearest-neighbors-by-hand" class="callout-inner">
+<h3 class="callout-title">Challenge 1: Nearest Neighbors by Hand<a class="anchor" aria-label="anchor" href="#challenge-1-nearest-neighbors-by-hand"></a>
+</h3>
+<div class="callout-content">
+<p>A data point is submitted to a 3 Nearest Neighbors classifier. The
+ten training data points are, by ascending distance from the unknown
+data point, of classes: class 3, class 2, class 2, class 1, class 1,
+class 2, class 3, class 1, class 1, class 1.</p>
+<p>What is the probability that the unknown belongs to class 3?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Answer
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<p>33.33…%</p>
+<p>Of the three closest points, 0/3 were of class 1, 2/3 were of class
+2, and 1/3 were class 3. Thus the model’s confidence in the unknown
+belonging to class 2 is equal to 1 divided by 3.</p>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="performance-measurement">Performance Measurement<a class="anchor" aria-label="anchor" href="#performance-measurement"></a>
+<a class="anchor" aria-label="anchor" href="#performance-measurement"></a>
+</h2>
+<hr class="half-width">
+<p>Consider the sample dataset of iris flower characteristics and
+species provided by scikit-learn. The features of each data point are
+length of the sepal, width of the sepal, length of the petals, and width
+of the petals, while there are three species (setosa, versicolor, and
+virginica). In order to determine how well a classifier is performing,
+the available data is partitioned. One part will be used to train the
+classifier, then the rest will be classified by the trained model. The
+results of the model can then be compared to the known classes of the
+test data, showing how well the given algorithm can correctly identify
+unknown (to it) data points.</p>
+<p>A confusion matrix bins each test data point according to both its
+true and predicted labels. A True Positive was correctly identified as
+belonging to the class, while a False Positive was incorrectly
+identified as belonging to the class. True Negatives and False Negatives
+are equivalent for data points identified as not belonging to the class.
+Many metrics can be calculated from these, such as accuracy:</p>
+<p><span class="math inline">\(accuracy = \dfrac{TN + TP}{FN + FP + TN +
+TP}\)</span></p>
+<p>One particularly common metric is the F1 score:</p>
+<p><span class="math inline">\(F1 =
+\dfrac{2*TP}{(2*TP)+FN+FP}\)</span></p>
+</section><section><h2 class="section-heading" id="decision-trees">Decision Trees<a class="anchor" aria-label="anchor" href="#decision-trees"></a>
+<a class="anchor" aria-label="anchor" href="#decision-trees"></a>
+</h2>
+<hr class="half-width">
+<p>Decision trees create a set of binary rules which partition the data.
+Unknown data points traverse the tree until they reach a leaf, at which
+point the proportion of members of a class in the training data also
+contained in that leaf node is the percentage confidence that the
+unknown is also a member of the class.</p>
+<div id="challenge-2-decision-trees-by-hand" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="challenge-2-decision-trees-by-hand" class="callout-inner">
+<h3 class="callout-title">Challenge 2: Decision Trees by Hand<a class="anchor" aria-label="anchor" href="#challenge-2-decision-trees-by-hand"></a>
+</h3>
+<div class="callout-content">
+<p>A very simple decision tree has only one layer and one feature. It
+splits the feature at 5, such that anything less than 5 goes to leaf
+node 0 (containing 38 positive data points and 2 negative) and anything
+greater than or equal to 5 goes to leaf node 1 (containing 8 positive
+data points and 71 negatives). What is the confidence that a data point
+with feature 0 is positive?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2">
+  Answer
+  </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div class="accordion-body">
+<p>95%</p>
+<p>0 &lt; 5, so the tree sorts it into leaf node 0. 38 out of the 40
+training points in leaf 0 are positive. Thus, 38/40 = 0.95.</p>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="overfitting">Overfitting<a class="anchor" aria-label="anchor" href="#overfitting"></a>
+<a class="anchor" aria-label="anchor" href="#overfitting"></a>
+</h2>
+<hr class="half-width">
+<p>You may have noticed that creatinga Decision Tree with 25 layers
+performed worse than only allowing 5. This is an example of overfitting.
+A model that approximates the training data too closely is susceptible
+to creating needlessly complex rules that will only apply to individual
+points in your training data.</p>
+</section><section><h2 class="section-heading" id="ensemble-methods">Ensemble Methods<a class="anchor" aria-label="anchor" href="#ensemble-methods"></a>
+<a class="anchor" aria-label="anchor" href="#ensemble-methods"></a>
+</h2>
+<hr class="half-width">
+<p>In an ensemble method, many small classifier models are trained
+seperately. Unknown data points are submitted to each one in turn, and
+their results are aggregated either by having each one vote for the
+single best class and counting the proportion which voted for each class
+or by taking the average of the percentage confidence from each model
+for each class.</p>
+<p>The AdaBoost algorithm trains classifiers sequentially. The first
+classifier is trained on the original training data. Then, each training
+point that is incorrectly classified by the current ensemble is given a
+higher weight and a new classifier is trained against the weighted
+training data. The process repeats until the ensemble is completed.</p>
+</section><section><h2 class="section-heading" id="bayesian-classification">Bayesian Classification<a class="anchor" aria-label="anchor" href="#bayesian-classification"></a>
+<a class="anchor" aria-label="anchor" href="#bayesian-classification"></a>
+</h2>
+<hr class="half-width">
+<p>Bayes’ theorem calculates the likelihood of an event given prior
+knowledge. Combined with a prior distribution describing your belief
+about the distribution of the data, it can be used to determine the
+probability of membership in a given class.</p>
+</section><section><h2 class="section-heading" id="discriminant-analysis">Discriminant Analysis<a class="anchor" aria-label="anchor" href="#discriminant-analysis"></a>
+<a class="anchor" aria-label="anchor" href="#discriminant-analysis"></a>
+</h2>
+<hr class="half-width">
+<p>Discriminent Analysis (either Linear Discriminent Analysis or
+Quadratic Discriminant Analysis) is an expansion of Bayesian
+classification. Gaussian Naive Bayes is equivalent to QDA when QDA’s
+covariance matrices are diagonal and inputs are assumed conditionally
+independent from all classes. LDA is another special case, in which only
+one covariance matrix is used for all Gaussian distributions.</p>
+</section><section><h2 class="section-heading" id="support-vector-machines">Support Vector Machines<a class="anchor" aria-label="anchor" href="#support-vector-machines"></a>
+<a class="anchor" aria-label="anchor" href="#support-vector-machines"></a>
+</h2>
+<hr class="half-width">
+<p>A Support Vector Machine (SVM) draws a hyperplane such that it
+separates the two classes and the parallels that touch the closest data
+point(s) of each class are maximally far away from it. Distance from the
+line correlates to probability of belonging to the class.</p>
+<div id="callout2" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout2"></a>
+</h3>
+<div class="callout-content">
+<p>Why does the example SVM classifier have three lines in its
+output?</p>
+<p>By the definition above, there should only be one line. In truth,
+most classification methods can only solve binary problems (ie ones with
+exactly two classes). Some, like Decision Trees, are inherantly able to
+process data with arbitrary numbers of labels. For the rest, we use an
+ensemble of models. The algorithm is repeated, considering only the
+training data from each pair of classes. To classify a new data point,
+we use all these as though they were classifiers in an Ensemble
+Method.</p>
+</div>
+</div>
+</div>
+<p>Most real non-trivial cases will not be linearly seperable. For these
+cases, we use a kernel function which transforms the space in which
+classification occurs.</p>
+</section><section><h2 class="section-heading" id="neural-networks">Neural Networks<a class="anchor" aria-label="anchor" href="#neural-networks"></a>
+<a class="anchor" aria-label="anchor" href="#neural-networks"></a>
+</h2>
+<hr class="half-width">
+<p>Neural networks take inspiration from the brain. A multi-layer
+perceptron is a series of nodes arranged in layers. Each layer of nodes
+takes as input all outputs from the previous layer. The initial features
+of the data point are the first “layer” of inputs. The final layer is a
+single node whose output is instead the final class label. Each node
+applies some weight to each input and sums them as its output.</p>
+<p>Training a neural network involves experimenting with possible weight
+values for different nodes to apply to their inputs. That is, training a
+multi-layer perceptron is itself an optimization machine learning
+problem as in section five.</p>
+</section><section><h2 class="section-heading" id="choosing-features">Choosing Features<a class="anchor" aria-label="anchor" href="#choosing-features"></a>
+<a class="anchor" aria-label="anchor" href="#choosing-features"></a>
+</h2>
+<hr class="half-width">
+<p>When there are very many features, restricting the model to only
+consider those which are most relevant to classification can improve
+performance in both classification accuracy and calculation time.</p>
+<p>Alternitavely, you perform feature down-selection after training.
+Recursive feature elimination is an algorithm in which a trained model’s
+features are compared to the model’s predictions. The least important
+feature is removed from the training data and the process repeats until
+a specified number of features is left.</p>
+<p>One method to determine the number of features for recursive feature
+elimination selects a set of features of every size, then performs
+cross-validation (splitting the available data into K bins, then
+performing K different sets of training and metric calculation in which
+each bin is used as test data once) on each and selects the feature set
+that performed best.</p>
+</section><section><h2 class="section-heading" id="weighing-samples">Weighing Samples<a class="anchor" aria-label="anchor" href="#weighing-samples"></a>
+<a class="anchor" aria-label="anchor" href="#weighing-samples"></a>
+</h2>
+<hr class="half-width">
+<p>Certain data points may deserve special consideration. They may
+contain measurements which are more certain or represent objects for
+which it is more critical for the model to classify correctly. Most
+classification algorithms allow training data to be assigned a weight in
+order to bias the model towards that sample.</p>
+</section><section><h2 class="section-heading" id="outliers">Outliers<a class="anchor" aria-label="anchor" href="#outliers"></a>
+<a class="anchor" aria-label="anchor" href="#outliers"></a>
+</h2>
+<hr class="half-width">
+<p>Not all data is useful. Some data may be in error or represent
+unlikely edge cases.</p>
+<p>Unsupervised Learning allows for the detection of clusters. Training
+data that is far from any cluster are potentially damaging to a model’s
+performance. Identifying potential outliers in the training data and
+removing them before training can improve performance.</p>
+<div id="callout3" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout3"></a>
+</h3>
+<div class="callout-content">
+<p>Before removing outliers, carefully consider how such unusual data
+points may have arisen.</p>
+<p>Your domain knowledge will be crucial in this determination. Do the
+outliers violate well known laws of the domain or show artifacts
+characteristic of measurement errors? Conversely, is there some
+reasonable edge case to which the irregular data points could belong?
+The temptation to get a well performing model by potentially cherry
+picking data should be guarded against.</p>
+<p>If there is a potential explanation, all is not lost. If removing
+flamingos and penguins from your dataset of birds allows for clean
+seperation of classes, you can dub that model a classifier for only
+birds capable of flight, then try to train a second one to recognize the
+label(s) of interest in flightless birds.</p>
+</div>
+</div>
+</div>
+<p>A Local Outlier Factor classifier calculates the probability density
+of each data point’s nearest neighbors. Points with unusually low
+probability may be considered outliers.</p>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-regression"><p>Content from <a href="regression.html">Regression</a></p>
+<hr>
+<p>Last updated on 2024-07-10 |
+
+        <a href="https://github.com/SmithRWORNL/Introduction-to-Scientific-Machine-Learning/edit/main/episodes/regression.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 30 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>What sort of algorithms perform regression?</li>
+<li>How can regression be performed in Python?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Define various regression algorithms</li>
+<li>Demonstrate how to train and use regression models with the Scikit
+Learn library.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
+<a class="anchor" aria-label="anchor" href="#introduction"></a>
+</h2>
+<hr class="half-width">
+<p>Regression is a kind of supervised learning in which data points
+associated with numerical values are used to train a model, then the
+model makes a prediction about the value of an unidentified new piece of
+data.</p>
+<div id="callout1" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout1"></a>
+</h3>
+<div class="callout-content">
+<p>Follow along by importing this notebook into Colab:</p>
+<p><a href="http://" class="external-link uri">http://</a></p>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="linear-regression">Linear Regression<a class="anchor" aria-label="anchor" href="#linear-regression"></a>
+<a class="anchor" aria-label="anchor" href="#linear-regression"></a>
+</h2>
+<hr class="half-width">
+<p>In linear regression, a linear function is fitted to the data by
+reducing the residuals between the line and each training point.</p>
+</section><section><h2 class="section-heading" id="performance-evaluation">Performance Evaluation<a class="anchor" aria-label="anchor" href="#performance-evaluation"></a>
+<a class="anchor" aria-label="anchor" href="#performance-evaluation"></a>
+</h2>
+<hr class="half-width">
+<p>Most performance metrics for regression focus on either the degree to
+which independent variables explain dependent variables or the residuals
+between predicted and actual values. The R2 value or coefficient of
+determination. A value of 1 indicates a perfect fit for the test data. A
+value of 0 performs equally well as ignoring the independent variables
+entirely and always guessing the mean of the test values.</p>
+<div id="callout2" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout2"></a>
+</h3>
+<div class="callout-content">
+<p>Feature selection, data weighing, and outlier removal from
+classification can all apply equivalently to regression.</p>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="ridge">Ridge<a class="anchor" aria-label="anchor" href="#ridge"></a>
+<a class="anchor" aria-label="anchor" href="#ridge"></a>
+</h2>
+<hr class="half-width">
+<p>The Ridge algorithm is linear regression with an added penalty for
+complexity, which is the square of the coefficients of the linear
+function. Bayesian Ridge uses a Gaussian prior for the distribution of
+possible coefficients instead.</p>
+</section><section><h2 class="section-heading" id="polynomial-fitting">Polynomial Fitting<a class="anchor" aria-label="anchor" href="#polynomial-fitting"></a>
+<a class="anchor" aria-label="anchor" href="#polynomial-fitting"></a>
+</h2>
+<hr class="half-width">
+<p>Fitting of polynomial data can be achieved, even using a linear
+regression model, by transforming the features into a Vandermonde
+matrix: [x, y] becoming [1, x, y, x * x, x * y, y *y].</p>
+</section><section><h2 class="section-heading" id="kernels">Kernels<a class="anchor" aria-label="anchor" href="#kernels"></a>
+<a class="anchor" aria-label="anchor" href="#kernels"></a>
+</h2>
+<hr class="half-width">
+<p>A kernel function projects the space under consideration into a
+higher dimension, with the goal that a non-linear relationship be
+expressible linearly (eg by a hyperplane) within the higher dimensional
+space.</p>
+</section><section><h2 class="section-heading" id="classifier-algorithms">Classifier Algorithms<a class="anchor" aria-label="anchor" href="#classifier-algorithms"></a>
+<a class="anchor" aria-label="anchor" href="#classifier-algorithms"></a>
+</h2>
+<hr class="half-width">
+<p>Many classifier algorithms from the previous section can also be used
+for regression. Often, the equivalence is simply that the classifier is
+a special case where the classes are treated as values 0 and 1. Nearest
+neighbors, decision trees, ensemble methods, Gaussian process, support
+vector machines, and neural networks are all equally applicable to
+regression problems as they are to classification.</p>
+</section><section><h2 class="section-heading" id="algorithmic-feature-selection">Algorithmic feature selection<a class="anchor" aria-label="anchor" href="#algorithmic-feature-selection"></a>
+<a class="anchor" aria-label="anchor" href="#algorithmic-feature-selection"></a>
+</h2>
+<hr class="half-width">
+<p>Previously discussed methods of feature selection consider the idea
+of removing features as a preprocessing step, providing the regressor
+with only features believed to be useful. Some regressor algorithms are
+instead designed such that they prefer sparse solutions to fitting the
+training data. That is, they tend to assign coefficients of zero or near
+zero during training, combining the feature selection and training steps
+into one.</p>
+</section><section><h2 class="section-heading" id="lasso">Lasso<a class="anchor" aria-label="anchor" href="#lasso"></a>
+<a class="anchor" aria-label="anchor" href="#lasso"></a>
+</h2>
+<hr class="half-width">
+<p>The Lasso algorithm is a linear model with a regularization term
+added.</p>
+</section><section><h2 class="section-heading" id="elasticnet">ElasticNet<a class="anchor" aria-label="anchor" href="#elasticnet"></a>
+<a class="anchor" aria-label="anchor" href="#elasticnet"></a>
+</h2>
+<hr class="half-width">
+<p>ElasticNet is similar to Ridge, having two regularization parameters
+combined with a least squares linear regression</p>
+</section><section><h2 class="section-heading" id="least-angle-regression">Least Angle Regression<a class="anchor" aria-label="anchor" href="#least-angle-regression"></a>
+<a class="anchor" aria-label="anchor" href="#least-angle-regression"></a>
+</h2>
+<hr class="half-width">
+<p>Least Angle Regression (LARS) begins with all coefficients in the
+linear model equal to 0. It increases the absolute value of the
+coefficient which most correlates with the label, until another
+coefficient has equal correlation to the residual, at which point it
+increases both. The process repeats until all features have been used.
+LARS can also be applied to fit other kinds of models, such as
+Lasso.</p>
+</section><section><h2 class="section-heading" id="orthogonal-matching-pursuit">Orthogonal Matching Pursuit<a class="anchor" aria-label="anchor" href="#orthogonal-matching-pursuit"></a>
+<a class="anchor" aria-label="anchor" href="#orthogonal-matching-pursuit"></a>
+</h2>
+<hr class="half-width">
+<p>Orthogonal Matching Pursuit (OMP) is another forward feature
+selection algorithm like LARS. At each step, the residual is calculated
+orthogonal to the current model. The feature with the highest
+correlation to the residual is added to the set of chosen features.</p>
+</section><section><h2 class="section-heading" id="automatic-relevance-determination">Automatic Relevance Determination<a class="anchor" aria-label="anchor" href="#automatic-relevance-determination"></a>
+<a class="anchor" aria-label="anchor" href="#automatic-relevance-determination"></a>
+</h2>
+<hr class="half-width">
+<p>Automatic Relevance Determination (ARD) is similar to Bayesiand
+Ridge, but replaces the spherical Gaussian prior with an elliptical
+Gaussian, with each feature having its own standard deviation.</p>
+</section><section><h2 class="section-heading" id="multi-task-regression">Multi-task Regression<a class="anchor" aria-label="anchor" href="#multi-task-regression"></a>
+<a class="anchor" aria-label="anchor" href="#multi-task-regression"></a>
+</h2>
+<hr class="half-width">
+<p>Algorithms can be fitted to multiple values simultaneously,
+minimizing the combined residuals between the model output and each of
+the individual dependent variables.</p>
+<div id="multi-label-classification" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="multi-label-classification" class="callout-inner">
+<h3 class="callout-title">Multi-label Classification<a class="anchor" aria-label="anchor" href="#multi-label-classification"></a>
+</h3>
+<div class="callout-content">
+<p>Classification is also not relegated to learning a single label at
+once.</p>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-break"><p>Content from <a href="break.html">Break</a></p>
+<hr>
+<p>Last updated on 2024-07-10 |
+
+        <a href="https://github.com/SmithRWORNL/Introduction-to-Scientific-Machine-Learning/edit/main/episodes/break.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 5 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+</div>
+</div>
+</div>
+</div>
+</div></section><section id="aio-optimization"><p>Content from <a href="optimization.html">Optimization</a></p>
+<hr>
+<p>Last updated on 2024-07-10 |
+
+        <a href="https://github.com/SmithRWORNL/Introduction-to-Scientific-Machine-Learning/edit/main/episodes/optimization.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 30 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How is optimization used in machine learning?</li>
+<li>What sort of algorithms perform optimization?</li>
+<li>How can optimization be performed in Python?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Define various curve fitting algorithms</li>
+<li>Demonstrate how to train and use curve fitting models with the lmfit
+library.</li>
+<li>Demonstrate how to code and configure a genetic algorithm.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
+<a class="anchor" aria-label="anchor" href="#introduction"></a>
+</h2>
+<hr class="half-width">
+<p>Fitting accepts an objective function with some number of parameters,
+as well as a set of observations. The assumption is that the function
+correctly models the physical process behind the observed points.
+Fitting takes a guess-and-check approach, evaluating the basis function
+at one point, calculating the residual, and repeating until stopping
+criterea are reached.</p>
+<div id="callout1" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout1"></a>
+</h3>
+<div class="callout-content">
+<p>Follow along by importing this notebook into Colab:</p>
+<p><a href="http://" class="external-link uri">http://</a></p>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="parameters">Parameters<a class="anchor" aria-label="anchor" href="#parameters"></a>
+<a class="anchor" aria-label="anchor" href="#parameters"></a>
+</h2>
+<hr class="half-width">
+<p>Parameters are floating point inputs to the objective function.</p>
+</section><section><h2 class="section-heading" id="objective-function">Objective Function<a class="anchor" aria-label="anchor" href="#objective-function"></a>
+<a class="anchor" aria-label="anchor" href="#objective-function"></a>
+</h2>
+<hr class="half-width">
+<p>The objective (or basis) function takes the Parameters object and
+produces a numerical output. The form of the objective function must
+rely on domain knowledge. If multiple objective function candidates
+exist, they will have to be fitted separately and the results
+compared.</p>
+</section><section><h2 class="section-heading" id="parameter-constraints">Parameter constraints<a class="anchor" aria-label="anchor" href="#parameter-constraints"></a>
+<a class="anchor" aria-label="anchor" href="#parameter-constraints"></a>
+</h2>
+<hr class="half-width">
+<p>Constraints allow parameters to be restricted to a range or
+formula.</p>
+<div id="sensitivity-to-starting-values" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="sensitivity-to-starting-values" class="callout-inner">
+<h3 class="callout-title">Sensitivity to Starting Values<a class="anchor" aria-label="anchor" href="#sensitivity-to-starting-values"></a>
+</h3>
+<div class="callout-content">
+<p>That last model in this notebook section was terrible. Why? Because
+the starting values for all the Gaussian function’s parameters were
+zero. Fitting functions will being their search around the location of
+the first values. If those first values are very far away from any
+maxima, the algorithm can give up before finding anything close to a
+solution.</p>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="levenberg-marquardt">Levenberg-Marquardt<a class="anchor" aria-label="anchor" href="#levenberg-marquardt"></a>
+<a class="anchor" aria-label="anchor" href="#levenberg-marquardt"></a>
+</h2>
+<hr class="half-width">
+<p>The Levenberg-Marquadt algorithm is essentially a combination of
+gradient descent and the Gauss-Newton algorithm (itself an extension of
+Newton’s method for non-linear functions.) It comes closer to the former
+the less improvement the last iteration made.</p>
+</section><section><h2 class="section-heading" id="trust-regions">Trust Regions<a class="anchor" aria-label="anchor" href="#trust-regions"></a>
+<a class="anchor" aria-label="anchor" href="#trust-regions"></a>
+</h2>
+<hr class="half-width">
+<p>A trust region is an area where a simplified approximation of the
+objective function has been created. Initial steps are used to create
+the approximation, which is minimized, and the process repeats. They can
+be added to other methods such as generalized Lanczos (GLTR), which is
+an algorithm normally used in minimizing eigenvalues and
+eigenvectors.</p>
+<p>Constrained Optimization By Linear Approximation uses linear
+interpolation for its approximation of the trust region.</p>
+<p>Powell’s dog leg algorithm is similar to Levenberg-Marquadt. If the
+Gauss-Newton method and gradient descent both lead to a next step
+outside the trust region, the gradient descent solution is projected to
+the edge of the trust region. If the gradient descent is inside, the
+intersection between the line of the two solutions and the boundary of
+the trust region is used.</p>
+</section><section><h2 class="section-heading" id="basin-hopping">Basin-Hopping<a class="anchor" aria-label="anchor" href="#basin-hopping"></a>
+<a class="anchor" aria-label="anchor" href="#basin-hopping"></a>
+</h2>
+<hr class="half-width">
+<p>Basin-Hopping randomly perturbs all parameters and checks if the new
+solution was an improvement.</p>
+</section><section><h2 class="section-heading" id="brute-force">Brute Force<a class="anchor" aria-label="anchor" href="#brute-force"></a>
+<a class="anchor" aria-label="anchor" href="#brute-force"></a>
+</h2>
+<hr class="half-width">
+<p>The Brute force method creates a grid of points around the initial
+values, then tests every point.</p>
+</section><section><h2 class="section-heading" id="dual-annealing">Dual Annealing<a class="anchor" aria-label="anchor" href="#dual-annealing"></a>
+<a class="anchor" aria-label="anchor" href="#dual-annealing"></a>
+</h2>
+<hr class="half-width">
+<p>Simulated annealing is a hill climbing method, in which the
+probability that a new solution is accepted is proportional to its
+fitness, with the probability decreasing as a function of time. Dual
+annealing is a specific implementation.</p>
+</section><section><h2 class="section-heading" id="conjugate-gradient">Conjugate Gradient<a class="anchor" aria-label="anchor" href="#conjugate-gradient"></a>
+<a class="anchor" aria-label="anchor" href="#conjugate-gradient"></a>
+</h2>
+<hr class="half-width">
+<p>Conjugate Gradient is a numerical method for an analytical solution
+by choosing gradients in each direction. It is used in fitting by
+approximating only a of the conjugate directions.</p>
+</section><section><h2 class="section-heading" id="nelder-mead">Nelder-Mead<a class="anchor" aria-label="anchor" href="#nelder-mead"></a>
+<a class="anchor" aria-label="anchor" href="#nelder-mead"></a>
+</h2>
+<hr class="half-width">
+<p>In the Nelder-Mead algorithms for an n-feature function, n+1
+candidates are chosen. The worst fitting candidate is replaced by the
+centroid.</p>
+</section><section><h2 class="section-heading" id="newton">Newton<a class="anchor" aria-label="anchor" href="#newton"></a>
+<a class="anchor" aria-label="anchor" href="#newton"></a>
+</h2>
+<hr class="half-width">
+<p>The Gauss-Newton method for linear regression can be used on its
+own.</p>
+</section><section><h2 class="section-heading" id="simplified-homology-global-optimization">Simplified Homology Global Optimization<a class="anchor" aria-label="anchor" href="#simplified-homology-global-optimization"></a>
+<a class="anchor" aria-label="anchor" href="#simplified-homology-global-optimization"></a>
+</h2>
+<hr class="half-width">
+<p>Simplified Homology Global Optimization (SHGO) samples multiple
+points in the optimization function, trying to find find a convex region
+which it can optimize on.</p>
+</section><section><h2 class="section-heading" id="error-calculation">Error Calculation<a class="anchor" aria-label="anchor" href="#error-calculation"></a>
+<a class="anchor" aria-label="anchor" href="#error-calculation"></a>
+</h2>
+<hr class="half-width">
+<p>Certain of the above models will have their errors naturally
+calculated by lmfit.</p>
+<p>It is possible to estimate errors for the parameters by taking the
+logrithmic posterior probability, over the distribution via Markov Chain
+Monte Carlo.</p>
+</section><section><h2 class="section-heading" id="genetic-algorithms">Genetic Algorithms<a class="anchor" aria-label="anchor" href="#genetic-algorithms"></a>
+<a class="anchor" aria-label="anchor" href="#genetic-algorithms"></a>
+</h2>
+<hr class="half-width">
+<p>One class of machine learning algorithms mimics the process of
+evolution. Differential evolution uses a genetic algorithm solve the
+curve fitting problem.</p>
+<p>Genetic algorithms consider of a population of potential solutions to
+an optimization problem. Each one is encoded in the form of a genome (a
+list of features). Every genome in the generation is evaluated for
+fitness via some process. The generation is then transformed to produce
+a new generation of candidates. The algorithm repeats for some number of
+cycles or until a sufficiently high scoring solution is found or
+operates indefinitely in anticipation of changes to the environment
+which will require a new kind of solution.</p>
+</section><section><h2 class="section-heading" id="fitness">Fitness<a class="anchor" aria-label="anchor" href="#fitness"></a>
+<a class="anchor" aria-label="anchor" href="#fitness"></a>
+</h2>
+<hr class="half-width">
+<p>The fitness function is a vital part of a genetic algorithm. Even in
+scenarios where the testing process for a member of the population is
+more complex than a simple function evaluation, the fitness function
+will be the ultimate decider of what constitutes a successful
+genome.</p>
+</section><section><h2 class="section-heading" id="selection">Selection<a class="anchor" aria-label="anchor" href="#selection"></a>
+<a class="anchor" aria-label="anchor" href="#selection"></a>
+</h2>
+<hr class="half-width">
+<p>The first step in creating a new generation involves choosing the
+“parent” genomes from the previous generation which will contribute
+genes to the “child” genome in the current generation. Normally, two
+genomes are selected per child, but sometimes only one will be used or,
+conversely, three or more will.</p>
+<p>A simple type of selection is Roulette Wheel. In this method, each
+genome in the previous generation has a chance to be chosen as a parent
+proportional to its normalized fitness.</p>
+</section><section><h2 class="section-heading" id="crossover">Crossover<a class="anchor" aria-label="anchor" href="#crossover"></a>
+<a class="anchor" aria-label="anchor" href="#crossover"></a>
+</h2>
+<hr class="half-width">
+<p>When multiple parents are selected, the crossover mechanism controls
+how they contribute genes to the child.</p>
+<p>One point crossover is a simple type of crossover. All genomes are
+given a universal ordering of genes at the start of the algorithm.
+During crossover, a random point is chosen. The first parent contributes
+all genes before that point, while the second contributes all genes
+after it.</p>
+</section><section><h2 class="section-heading" id="mutation">Mutation<a class="anchor" aria-label="anchor" href="#mutation"></a>
+<a class="anchor" aria-label="anchor" href="#mutation"></a>
+</h2>
+<hr class="half-width">
+<p>While the selection and crossover operators allow one generation to
+exploit information from previous generations, mutation allows the
+exploration of new areas of the solution space. Normally, a mutation
+rate is chosen and each child genome after crossover has the same
+percentage chance to undergo mutation. If chosen, a random gene is
+selected and its value is perturbed. The algorithm chosen for mutation
+may vary from gene to gene, such as a Gaussian probability curve about a
+floating point number or the random selection from a list of
+non-numerical values. It is desired, where possible, that mutation more
+heavily favors genes closer in value to the pre-mutation value. Mutation
+rate need not be static and can vary over the course of the
+optimization.</p>
+</section><section><h2 class="section-heading" id="elitism">Elitism<a class="anchor" aria-label="anchor" href="#elitism"></a>
+<a class="anchor" aria-label="anchor" href="#elitism"></a>
+</h2>
+<hr class="half-width">
+<p>In order to avoid forgetting a superior solution, the results with
+the highest fitness can be copied directly into the next generation.</p>
+</section><section><h2 class="section-heading" id="steady-state-selection">Steady State Selection<a class="anchor" aria-label="anchor" href="#steady-state-selection"></a>
+<a class="anchor" aria-label="anchor" href="#steady-state-selection"></a>
+</h2>
+<hr class="half-width">
+<p>In steady state selection, the lowest n genomes are removed from the
+population and the highest n receive two copies in the next generation.
+The rest of the population is copied directly.</p>
+</section><section><h2 class="section-heading" id="tournament-selection">Tournament Selection<a class="anchor" aria-label="anchor" href="#tournament-selection"></a>
+<a class="anchor" aria-label="anchor" href="#tournament-selection"></a>
+</h2>
+<hr class="half-width">
+<p>In tournament selection, n genomes are chosen at random. One genome
+from that set is chosen with likelihood in proportion to the the
+genomes’ fitness.</p>
+</section><section><h2 class="section-heading" id="k-point-crossover">K Point Crossover<a class="anchor" aria-label="anchor" href="#k-point-crossover"></a>
+<a class="anchor" aria-label="anchor" href="#k-point-crossover"></a>
+</h2>
+<hr class="half-width">
+<p>One point crossover can extended to an arbitrary number of points.
+Each point chosen changes which parent contributes genes in that
+region.</p>
+</section><section><h2 class="section-heading" id="uniform-crossover">Uniform Crossover<a class="anchor" aria-label="anchor" href="#uniform-crossover"></a>
+<a class="anchor" aria-label="anchor" href="#uniform-crossover"></a>
+</h2>
+<hr class="half-width">
+<p>In uniform crossover, each gene, or individual bits defining a gene’s
+value, are selected at random from each parent.</p>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-reinforcement"><p>Content from <a href="reinforcement.html">Reinforcement Learning</a></p>
+<hr>
+<p>Last updated on 2024-07-10 |
+
+        <a href="https://github.com/SmithRWORNL/Introduction-to-Scientific-Machine-Learning/edit/main/episodes/reinforcement.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 5 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>What is reinforcement learning?</li>
+<li>How can reinforcement learning be performed in Python?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Demonstrate how to train and use reiforcement learning models with
+the stable-baselines library.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
+<a class="anchor" aria-label="anchor" href="#introduction"></a>
+</h2>
+<hr class="half-width">
+<p>Reinforcement learning consists of time steps, actions, and
+observations. During a time step, a model is given an observation. It
+then selects an action, which may be discrete or continuous. The cycle
+repeats, with the model learning the consequences of its actions via new
+observations.</p>
+<div id="callout1" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout1"></a>
+</h3>
+<div class="callout-content">
+<p>Follow along by importing this notebook into Colab:</p>
+<p><a href="http://" class="external-link uri">http://</a></p>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="environment">Environment<a class="anchor" aria-label="anchor" href="#environment"></a>
+<a class="anchor" aria-label="anchor" href="#environment"></a>
+</h2>
+<hr class="half-width">
+<p>An environment consists of the code the model will interact with. A
+common pattern is to use a simulation environment during training, then
+switch to a real environment afterwards.</p>
+<p>Environments consist of a set of actions which can be taken on them
+and one or more data points which are returned.</p>
+</section><section><h2 class="section-heading" id="models">Models<a class="anchor" aria-label="anchor" href="#models"></a>
+<a class="anchor" aria-label="anchor" href="#models"></a>
+</h2>
+<hr class="half-width">
+<p>Neural networks are commonly used as the models in reinforcement
+learning. A common pattern is to train two models simultaneously, an
+actor model which makes decisions on what action to take and a critic
+model that learns a value function. This are similar to the
+explore/exploit divide in strategies between the selection/crossover and
+mutation operators previously seen in genetic algorithsm.</p>
+</section><section><h2 class="section-heading" id="online-learning">Online Learning<a class="anchor" aria-label="anchor" href="#online-learning"></a>
+<a class="anchor" aria-label="anchor" href="#online-learning"></a>
+</h2>
+<hr class="half-width">
+<p>Reinforcement learning differs from other machine learning algorithms
+in that it often makes use of continual updates to the model even in its
+final usage scenario. This is done so that it can learn a new
+environment after initial training or adapt to changes in the
+environment over time. <!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ --></p>
+</section></section><section id="aio-latent"><p>Content from <a href="latent.html">Latent Variable Generation</a></p>
+<hr>
+<p>Last updated on 2024-07-10 |
+
+        <a href="https://github.com/SmithRWORNL/Introduction-to-Scientific-Machine-Learning/edit/main/episodes/latent.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 5 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>What is latent variable generation?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Describe diffusion models</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
+<a class="anchor" aria-label="anchor" href="#introduction"></a>
+</h2>
+<hr class="half-width">
+<p>Latent variable generation calculates a full set of variables, given
+a sample of only some. Diffusion models perform this task for an image
+by relating observed noise to a prior distribution of images. This can
+be used to sample probable low frequencies of an image given the high
+frequencies, or a segment of an image given neighboring parts.</p>
+</section><section><h2 class="section-heading" id="a-novel-area-of-research">A Novel Area of Research<a class="anchor" aria-label="anchor" href="#a-novel-area-of-research"></a>
+<a class="anchor" aria-label="anchor" href="#a-novel-area-of-research"></a>
+</h2>
+<hr class="half-width">
+<p>These models are still quite new and are an emerging area of
+technology. Generalized libraries for solving them are not available,
+and even libraries in areas where they are common (image and audio
+processing, text generation) are large, computationally expensive, and
+idiosyncratic. Usage in other scientific domains <!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ --></p>
 </section></section>
 </div>
     </main>
@@ -512,12 +1759,12 @@ any links that you are not going to use.
         <p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
         <p>
 
-        <a href="https://github.com/carpentries/workbench-template-md/edit/main/README.md" class="external-link">Edit on GitHub</a>
+        <a href="https://github.com/SmithRWORNL/Introduction-to-Scientific-Machine-Learning/edit/main/README.md" class="external-link">Edit on GitHub</a>
 
 	
-        | <a href="https://github.com/carpentries/workbench-template-md/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
-        | <a href="https://github.com/carpentries/workbench-template-md/" class="external-link">Source</a></p>
-				<p><a href="https://github.com/carpentries/workbench-template-md/blob/main/CITATION.cff" class="external-link">Cite</a> | <a href="mailto:team@carpentries.org">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
+        | <a href="https://github.com/SmithRWORNL/Introduction-to-Scientific-Machine-Learning/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
+        | <a href="https://github.com/SmithRWORNL/Introduction-to-Scientific-Machine-Learning/" class="external-link">Source</a></p>
+				<p><a href="https://github.com/SmithRWORNL/Introduction-to-Scientific-Machine-Learning/blob/main/CITATION.cff" class="external-link">Cite</a> | <a href="mailto:smithrw@ornl.gov">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
 			</div>
 			<div class="col-md-6">
 
@@ -537,18 +1784,18 @@ any links that you are not going to use.
     {
   "@context": "https://schema.org",
   "@type": "TrainingMaterial",
-  "@id": "https://carpentries.github.io/workbench-template-md/instructor/aio.html",
+  "@id": "https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/aio.html",
   "inLanguage": "en",
   "dct:conformsTo": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
   "description": "A Carpentries Lesson teaching foundational data and coding skills to researchers worldwide",
-  "keywords": "software, data, lesson, The Carpentries",
+  "keywords": "software, data, lesson, The Carpentries, machine learning",
   "name": "All in One View",
   "creativeWorkStatus": "active",
-  "url": "https://carpentries.github.io/workbench-template-md/instructor/aio.html",
-  "identifier": "https://carpentries.github.io/workbench-template-md/instructor/aio.html",
-  "dateCreated": "2024-05-22",
-  "dateModified": "2024-07-09",
-  "datePublished": "2024-07-09"
+  "url": "https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/aio.html",
+  "identifier": "https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/instructor/aio.html",
+  "dateCreated": "2024-07-10",
+  "dateModified": "2024-07-10",
+  "datePublished": "2024-07-10"
 }
 
   </script><script>
