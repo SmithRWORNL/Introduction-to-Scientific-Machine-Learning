@@ -303,10 +303,10 @@
               </div>
             </div>
 
-            <hr class="half-width"><div class="accordion accordion-flush resources" id="accordionFlush12">
+            <hr class="half-width"><div class="accordion accordion-flush lesson-resources" id="accordionFlush12">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingTwelve">
-                  <button class="accordion-button collapsed" id="resources" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                  <button class="accordion-button collapsed" id="lesson-resources" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
                     RESOURCES
                   </button>
                 </h2>
@@ -326,7 +326,7 @@
                 </div>
               </div>
             </div>
-            <hr class="half-width resources"><a href="aio.html">See all in one page</a>
+            <hr class="half-width lesson-resources"><a href="aio.html">See all in one page</a>
 
 
             <hr class="d-none d-sm-block d-md-none"><div class="d-grid gap-1">
@@ -393,8 +393,7 @@ Learn library.</li>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
-<a class="anchor" aria-label="anchor" href="#introduction"></a></h2>
+<section><h2 class="section-heading" id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a></h2>
 <hr class="half-width"><p>Regression is a kind of supervised learning in which data points
 associated with numerical values are used to train a model, then the
 model makes a prediction about the value of an unidentified new piece of
@@ -404,20 +403,17 @@ data.</p>
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout1"></a>
-</h3>
+<h3 class="callout-title">Callout</h3>
 <div class="callout-content">
 <p>Follow along by importing this notebook into Colab:</p>
 <p><a href="https://github.com/SmithRWORNL/Introduction-to-Scientific-Machine-Learning/blob/main/notebooks/regression.ipynb" class="external-link uri">https://github.com/SmithRWORNL/Introduction-to-Scientific-Machine-Learning/blob/main/notebooks/regression.ipynb</a></p>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="linear-regression">Linear Regression<a class="anchor" aria-label="anchor" href="#linear-regression"></a>
-<a class="anchor" aria-label="anchor" href="#linear-regression"></a></h2>
+</section><section><h2 class="section-heading" id="linear-regression">Linear Regression<a class="anchor" aria-label="anchor" href="#linear-regression"></a></h2>
 <hr class="half-width"><p>In linear regression, a linear function is fitted to the data by
 reducing the residuals between the line and each training point.</p>
-</section><section><h2 class="section-heading" id="performance-evaluation">Performance Evaluation<a class="anchor" aria-label="anchor" href="#performance-evaluation"></a>
-<a class="anchor" aria-label="anchor" href="#performance-evaluation"></a></h2>
+</section><section><h2 class="section-heading" id="performance-evaluation">Performance Evaluation<a class="anchor" aria-label="anchor" href="#performance-evaluation"></a></h2>
 <hr class="half-width"><p>Most performance metrics for regression focus on either the degree to
 which independent variables explain dependent variables or the residuals
 between predicted and actual values. The R2 value or coefficient of
@@ -429,41 +425,35 @@ entirely and always guessing the mean of the test values.</p>
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout2"></a>
-</h3>
+<h3 class="callout-title">Callout</h3>
 <div class="callout-content">
 <p>Feature selection, data weighing, and outlier removal from
 classification can all apply equivalently to regression.</p>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="ridge">Ridge<a class="anchor" aria-label="anchor" href="#ridge"></a>
-<a class="anchor" aria-label="anchor" href="#ridge"></a></h2>
+</section><section><h2 class="section-heading" id="ridge">Ridge<a class="anchor" aria-label="anchor" href="#ridge"></a></h2>
 <hr class="half-width"><p>The Ridge algorithm is linear regression with an added penalty for
 complexity, which is the square of the coefficients of the linear
 function. Bayesian Ridge uses a Gaussian prior for the distribution of
 possible coefficients instead.</p>
-</section><section><h2 class="section-heading" id="polynomial-fitting">Polynomial Fitting<a class="anchor" aria-label="anchor" href="#polynomial-fitting"></a>
-<a class="anchor" aria-label="anchor" href="#polynomial-fitting"></a></h2>
+</section><section><h2 class="section-heading" id="polynomial-fitting">Polynomial Fitting<a class="anchor" aria-label="anchor" href="#polynomial-fitting"></a></h2>
 <hr class="half-width"><p>Fitting of polynomial data can be achieved, even using a linear
 regression model, by transforming the features into a Vandermonde
 matrix: [x, y] becoming [1, x, y, x * x, x * y, y *y].</p>
-</section><section><h2 class="section-heading" id="kernels">Kernels<a class="anchor" aria-label="anchor" href="#kernels"></a>
-<a class="anchor" aria-label="anchor" href="#kernels"></a></h2>
+</section><section><h2 class="section-heading" id="kernels">Kernels<a class="anchor" aria-label="anchor" href="#kernels"></a></h2>
 <hr class="half-width"><p>A kernel function projects the space under consideration into a
 higher dimension, with the goal that a non-linear relationship be
 expressible linearly (eg by a hyperplane) within the higher dimensional
 space.</p>
-</section><section><h2 class="section-heading" id="classifier-algorithms">Classifier Algorithms<a class="anchor" aria-label="anchor" href="#classifier-algorithms"></a>
-<a class="anchor" aria-label="anchor" href="#classifier-algorithms"></a></h2>
+</section><section><h2 class="section-heading" id="classifier-algorithms">Classifier Algorithms<a class="anchor" aria-label="anchor" href="#classifier-algorithms"></a></h2>
 <hr class="half-width"><p>Many classifier algorithms from the previous section can also be used
 for regression. Often, the equivalence is simply that the classifier is
 a special case where the classes are treated as values 0 and 1. Nearest
 neighbors, decision trees, ensemble methods, Gaussian process, support
 vector machines, and neural networks are all equally applicable to
 regression problems as they are to classification.</p>
-</section><section><h2 class="section-heading" id="algorithmic-feature-selection">Algorithmic feature selection<a class="anchor" aria-label="anchor" href="#algorithmic-feature-selection"></a>
-<a class="anchor" aria-label="anchor" href="#algorithmic-feature-selection"></a></h2>
+</section><section><h2 class="section-heading" id="algorithmic-feature-selection">Algorithmic feature selection<a class="anchor" aria-label="anchor" href="#algorithmic-feature-selection"></a></h2>
 <hr class="half-width"><p>Previously discussed methods of feature selection consider the idea
 of removing features as a preprocessing step, providing the regressor
 with only features believed to be useful. Some regressor algorithms are
@@ -471,16 +461,13 @@ instead designed such that they prefer sparse solutions to fitting the
 training data. That is, they tend to assign coefficients of zero or near
 zero during training, combining the feature selection and training steps
 into one.</p>
-</section><section><h2 class="section-heading" id="lasso">Lasso<a class="anchor" aria-label="anchor" href="#lasso"></a>
-<a class="anchor" aria-label="anchor" href="#lasso"></a></h2>
+</section><section><h2 class="section-heading" id="lasso">Lasso<a class="anchor" aria-label="anchor" href="#lasso"></a></h2>
 <hr class="half-width"><p>The Lasso algorithm is a linear model with a regularization term
 added.</p>
-</section><section><h2 class="section-heading" id="elasticnet">ElasticNet<a class="anchor" aria-label="anchor" href="#elasticnet"></a>
-<a class="anchor" aria-label="anchor" href="#elasticnet"></a></h2>
+</section><section><h2 class="section-heading" id="elasticnet">ElasticNet<a class="anchor" aria-label="anchor" href="#elasticnet"></a></h2>
 <hr class="half-width"><p>ElasticNet is similar to Ridge, having two regularization parameters
 combined with a least squares linear regression</p>
-</section><section><h2 class="section-heading" id="least-angle-regression">Least Angle Regression<a class="anchor" aria-label="anchor" href="#least-angle-regression"></a>
-<a class="anchor" aria-label="anchor" href="#least-angle-regression"></a></h2>
+</section><section><h2 class="section-heading" id="least-angle-regression">Least Angle Regression<a class="anchor" aria-label="anchor" href="#least-angle-regression"></a></h2>
 <hr class="half-width"><p>Least Angle Regression (LARS) begins with all coefficients in the
 linear model equal to 0. It increases the absolute value of the
 coefficient which most correlates with the label, until another
@@ -488,19 +475,16 @@ coefficient has equal correlation to the residual, at which point it
 increases both. The process repeats until all features have been used.
 LARS can also be applied to fit other kinds of models, such as
 Lasso.</p>
-</section><section><h2 class="section-heading" id="orthogonal-matching-pursuit">Orthogonal Matching Pursuit<a class="anchor" aria-label="anchor" href="#orthogonal-matching-pursuit"></a>
-<a class="anchor" aria-label="anchor" href="#orthogonal-matching-pursuit"></a></h2>
+</section><section><h2 class="section-heading" id="orthogonal-matching-pursuit">Orthogonal Matching Pursuit<a class="anchor" aria-label="anchor" href="#orthogonal-matching-pursuit"></a></h2>
 <hr class="half-width"><p>Orthogonal Matching Pursuit (OMP) is another forward feature
 selection algorithm like LARS. At each step, the residual is calculated
 orthogonal to the current model. The feature with the highest
 correlation to the residual is added to the set of chosen features.</p>
-</section><section><h2 class="section-heading" id="automatic-relevance-determination">Automatic Relevance Determination<a class="anchor" aria-label="anchor" href="#automatic-relevance-determination"></a>
-<a class="anchor" aria-label="anchor" href="#automatic-relevance-determination"></a></h2>
+</section><section><h2 class="section-heading" id="automatic-relevance-determination">Automatic Relevance Determination<a class="anchor" aria-label="anchor" href="#automatic-relevance-determination"></a></h2>
 <hr class="half-width"><p>Automatic Relevance Determination (ARD) is similar to Bayesiand
 Ridge, but replaces the spherical Gaussian prior with an elliptical
 Gaussian, with each feature having its own standard deviation.</p>
-</section><section><h2 class="section-heading" id="multi-task-regression">Multi-task Regression<a class="anchor" aria-label="anchor" href="#multi-task-regression"></a>
-<a class="anchor" aria-label="anchor" href="#multi-task-regression"></a></h2>
+</section><section><h2 class="section-heading" id="multi-task-regression">Multi-task Regression<a class="anchor" aria-label="anchor" href="#multi-task-regression"></a></h2>
 <hr class="half-width"><p>Algorithms can be fitted to multiple values simultaneously,
 minimizing the combined residuals between the model output and each of
 the individual dependent variables.</p>
@@ -509,8 +493,7 @@ the individual dependent variables.</p>
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="multi-label-classification" class="callout-inner">
-<h3 class="callout-title">Multi-label Classification<a class="anchor" aria-label="anchor" href="#multi-label-classification"></a>
-</h3>
+<h3 class="callout-title">Multi-label Classification</h3>
 <div class="callout-content">
 <p>Classification is also not relegated to learning a single label at
 once.</p>
@@ -522,8 +505,7 @@ once.</p>
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="challenge-1-apply-regression" class="callout-inner">
-<h3 class="callout-title">Challenge 1: Apply Regression<a class="anchor" aria-label="anchor" href="#challenge-1-apply-regression"></a>
-</h3>
+<h3 class="callout-title">Challenge 1: Apply Regression</h3>
 <div class="callout-content">
 <p>This line will load housing price data, labeled by median housing
 price in a neighborhood:</p>
@@ -540,7 +522,7 @@ regressor for housing price.</p>
   Answer
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Test/train split:</p>
 <p>house_train_data, house_test_data, house_train_labels,
@@ -594,7 +576,7 @@ any links that you are not going to use.
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
 
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.5" class="external-link">sandpaper (0.16.5)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.6" class="external-link">pegboard (0.7.6)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.3" class="external-link">varnish (1.0.3)</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.6" class="external-link">sandpaper (0.16.6)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.6" class="external-link">pegboard (0.7.6)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.4" class="external-link">varnish (1.0.4)</a></p>
 			</div>
 		</footer></div> <!-- / div.container -->
 	<div id="to-top">
@@ -617,7 +599,7 @@ any links that you are not going to use.
   "identifier": "https://SmithRWORNL.github.io/Introduction-to-Scientific-Machine-Learning/regression.html",
   "dateCreated": "2024-07-10",
   "dateModified": "2024-07-10",
-  "datePublished": "2024-08-20"
+  "datePublished": "2024-08-27"
 }
 
   </script><script>
